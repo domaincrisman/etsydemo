@@ -12,8 +12,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5'
-gem "paperclip", "~> 4.3"
+#gem "paperclip", "~> 4.3"
+gem 'paperclip', '~> 4.3', '>= 4.3.7'
 gem "paperclip-dropbox", ">= 1.1.7"
+
 gem "figaro"
 gem 'devise'
 gem 'stripe'
